@@ -1,0 +1,17 @@
+[project]
+name = "xai-sendgrid"
+version = "0.1.0"
+description = "Xircuits component library for Sending Emails."
+authors = [{ name = "XpressAI", email = "eduardo@xpress.ai" }]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/XpressAI/xai-sendgrid"
+keywords = ["xircuits", "sendgrid"]
+
+dependencies = [
+    "sendgrid==6.11.0",
+]
+
+# Xircuits-specific configurations
+[tool.xircuits]
+requirements_path = "requirements.txt"
